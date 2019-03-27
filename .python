@@ -1,0 +1,25 @@
+Health=100
+if Health=True:
+    print("You Died\nGame Over")
+print("Welcome\n")
+print("This is a choose your own adventure style game.")
+print("You will be given a question and a series of choices,\nwhich can be chosen by typing the corosponding number.")
+print("Typing anything other than the numbers given, or typing\nnothing will result in an error.")
+print("You will start with 100 health, depending on your decison\nthat number may go down.")
+print("If your health drops to 0, then the game will end.")
+print("It is possible to find items to heal yourself, however\nyour health can not go any higher than 100.\n")
+print("Are you ready to begin?")
+#New Timeline
+answer1=input("1.Yes 2.No\n")
+if answer1=="1":
+    print("You are home alone, upstairs in your bedroom sleeping,\nwhen you hear a knock on your door.\n")
+elif answer1=="2":
+    print("GAME OVER")
+else:
+    print("ERROR")
+#New Timeline
+if answer1=="1":
+    answer2=input("1.Go downstairs. 2.Ignore it. 3.Lock your bedroom door.\n")
+#New Timeline
+if answer2=="1":
+    print("As you go down the stairs the knocking turns to an aggressive")
